@@ -17,7 +17,6 @@ btn.addEventListener("click", async () => {
     return;
   }
 
-  output.textContent = "Waiting...";
   await wait(delay);
   output.textContent = message;
 });
